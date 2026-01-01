@@ -1,0 +1,54 @@
+.navbar {
+  background: var(--darker-bg) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid var(--primary-color);
+  box-shadow: 0 4px 20px var(--accent-glow);
+  transition: all 0.3s ease;
+}
+
+.brand {
+  color: var(--primary-color) !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-shadow: 0 0 10px var(--accent-glow);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.brand:hover {
+  color: var(--secondary-color) !important;
+}
+
+.navLink {
+  color: var(--text-color) !important;
+  transition: all 0.3s ease;
+  position: relative;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+.navLink::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary-color);
+  transition: width 0.3s ease;
+}
+
+.navLink:hover::after {
+  width: 100%;
+}
+
+.navLink:hover {
+  color: var(--primary-color) !important;
+  text-shadow: 0 0 10px var(--accent-glow);
+}
+
+.themeToggleContainer {
+  margin-left: 1.5rem;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Portfolio Personnel",
+    "description": "Mon portfolio créé avec Next.js et React Bootstrap pour présenter mes projets et compétences",
+    "technologies": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Bootstrap"
+    ],
+    "link": "https://github.com/tancelin"
+  },
+  {
+    "title": "Application Web",
+    "description": "Description de votre application web. Ajoutez les détails de votre projet ici.",
+    "technologies": [
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "link": "https://github.com/tancelin"
+  },
+  {
+    "title": "Projet E-commerce",
+    "description": "Un projet e-commerce avec panier d'achat et système de paiement intégré",
+    "technologies": [
+      "Next.js",
+      "Stripe",
+      "Tailwind CSS"
+    ]
+  },
+  {
+    "title": "API REST",
+    "description": "Une API REST complète avec authentification et documentation",
+    "technologies": [
+      "Node.js",
+      "Express",
+      "JWT",
+      "Swagger"
+    ]
+  }
+]

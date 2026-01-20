@@ -8,7 +8,7 @@ export default function Home() {
       <Row className="justify-content-center text-center">
         <Col md={8}>
           <h1 className="display-4 mb-4">Bienvenue sur mon Portfolio</h1>
-          <p className="lead">Je m'appelle Tancelin Navez, j'ai 22 ans</p>
+          <p className="lead">Je m'appelle Tancelin Navez</p>
           <p className="mt-4">
             Découvrez mon parcours, mes projets et n'hésitez pas à me contacter !
           </p>

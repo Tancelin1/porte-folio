@@ -3,7 +3,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 
 export default async function Presentation() {
-  const filePath = path.join(process.cwd(), 'data', 'presentation.md');
+  const filePath = path.join(process.cwd(), 'locale/fr', 'presentation.md');
   const content = await fs.readFile(filePath, 'utf8');
 
   return (

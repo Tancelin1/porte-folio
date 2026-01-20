@@ -3,7 +3,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 
 export default async function Histoire() {
-  const filePath = path.join(process.cwd(), 'data', 'histoire.md');
+  const filePath = path.join(process.cwd(), 'locale/fr', 'histoire.md');
   const content = await fs.readFile(filePath, 'utf8');
 
   return (

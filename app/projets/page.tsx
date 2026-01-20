@@ -1,28 +1,12 @@
-'use client';
 import { Row, Col } from 'react-bootstrap';
 import ProjectCard from '@/components/ProjectCard';
-import { useState, useEffect } from 'react';
+import { promises as fs } from 'fs';
+import path from 'path';
 
-export default function Projets() {
-  const [projets, setProjets] = useState([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetch('/data/projets.json')
-      .then(res => res.json())
-      .then(data => {
-        setProjets(data);
-        setLoading(false);
-      })
-      .catch(err => {
-        console.error('Erreur chargement projets:', err);
-        setLoading(false);
-      });
-  }, []);
-
-  if (loading) {
-    return <div className="container mt-4"><p>Chargement...</p></div>;
-  }
+export default async function Projets() {
+  const filePath = path.join(process.cwd(), 'locale/fr', 'projets.json');
+  const fileContent = await fs.readFile(filePath, 'utf8');
+  const projets = JSON.parse(fileContent);
 
   return (
     <div className="container mt-4">

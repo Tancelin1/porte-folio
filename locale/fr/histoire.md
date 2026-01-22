@@ -1,27 +1,41 @@
-# Mon Parcours
+# Mon parcours
 
 ## Formation
 
-- Bac général – spécialités Mathématiques, Informatique, Mathématiques expertes (2021)
-- BTS SIO option SLAM (2021 – 2023)
-- Mastère Développement Web (en cours – diplôme prévu en 2026)
+- **Baccalauréat général** – spécialités Mathématiques, Informatique, Mathématiques expertes (2021)
+- **BTS SIO option SLAM** (2021 – 2023)
+- **Mastère Développement Web** (en cours – diplôme prévu en 2026)
 
 ### Diplômes et certifications
 
 - Baccalauréat général (2021)
 - BTS SIO option SLAM (2023)
 
+---
 
 ## Expériences professionnelles
 
-### Expérience 1
-Ma première expérience et mon stage de 2ème année de bts, j'ai effectuée ce stage dans une petit entreprise de 3 personne (2 développeur plus agée, et un jeune développeur étant alternant aupparant) la bas j'ai fait ma découverte du monde des framework avec angular, ainsi que de certain package utile (materia)
+### Stage – BTS SIO
 
-### Expérience 2
-Ma seconde expérience et la plus intérésante, c'est une alternance ayant eux lieux du 02/10/2023 aux 28/09/2026, j'ai effectuée mon alternance chez Cautioneo et pour école ynov, pour une période de 2 semaine en entreprise et 1 semaine en cours.
-durant cette alternance j'ai pus approfondir ma compréhension du framework react, découvrir bootstrap, ainsi que des de nouveau language (ruby on rails), de nouvelle notion (le markdown)
+Ma première expérience professionnelle correspond à mon stage de deuxième année de BTS.  
+Je l’ai réalisé au sein d’une petite entreprise composée de trois personnes (deux développeurs expérimentés et un développeur junior en alternance).
 
+Ce stage m’a permis de découvrir le monde des **frameworks**, notamment **Angular**, ainsi que l’utilisation de bibliothèques et outils tels que **Material**. Il s’agit de ma première immersion concrète dans un environnement de développement professionnel.
+
+---
+
+### Alternance – Développement Web
+
+Ma seconde expérience, et la plus marquante, est une **alternance** réalisée du **02/10/2023 au 28/09/2026**.
+
+J’effectue cette alternance au sein de l’entreprise **Cautioneo**, en partenariat avec l’école **Ynov**, selon un rythme de **deux semaines en entreprise et une semaine en formation**.
+
+Durant cette période, j’ai pu approfondir ma maîtrise du framework **React**, découvrir **Bootstrap**, ainsi que de nouveaux langages tels que **Ruby on Rails**. J’ai également acquis de nouvelles compétences transverses, notamment l’utilisation du **Markdown**, le travail en équipe et la gestion de projets concrets.
+
+---
 
 ## Évolution
 
-fort de tous ces expérience, je me présente envers vous en temps que jeune diplomée d'un master en developpement web, en espérant pouvoir travailler avec vous
+Fort de l’ensemble de ces expériences, je me présente aujourd’hui comme un **futur diplômé d’un Master en développement web**, motivé, rigoureux et désireux de continuer à progresser.
+
+Je souhaite mettre mes compétences techniques, ma capacité d’adaptation et mon engagement au service de projets stimulants, et serais ravi de pouvoir collaborer avec vous.

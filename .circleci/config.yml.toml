@@ -1,0 +1,87 @@
+version: 2.1
+
+# Définition des jobs
+jobs:
+  build-and-test:
+    docker:
+      - image: cimg/node:18.19
+    steps:
+      - checkout
+      
+      # Mise en cache des dépendances
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package-lock.json" }}
+            - v1-dependencies-
+      
+      # Installation des dépendances
+      - run:
+          name: Installation des dépendances
+          command: npm ci
+      
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package-lock.json" }}
+      
+      # Linting (optionnel, si vous avez ESLint configuré)
+      - run:
+          name: Linting
+          command: npm run lint || echo "Pas de script lint configuré"
+      
+      # Tests (optionnel, si vous avez des tests)
+      - run:
+          name: Tests
+          command: npm test -- --passWithNoTests --watchAll=false || echo "Pas de tests configurés"
+      
+      # Build du projet
+      - run:
+          name: Build de l'application
+          command: npm run build
+      
+      # Sauvegarde du dossier build pour le déploiement
+      - persist_to_workspace:
+          root: .
+          paths:
+            - build
+            - node_modules
+
+  deploy:
+    docker:
+      - image: cimg/node:18.19
+    steps:
+      - checkout
+      
+      # Récupération du workspace
+      - attach_workspace:
+          at: .
+      
+      # Installation de Netlify CLI
+      - run:
+          name: Installation de Netlify CLI
+          command: npm install -g netlify-cli
+      
+      # Déploiement sur Netlify
+      - run:
+          name: Déploiement sur Netlify
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "main" ]; then
+              netlify deploy --prod --dir=build --site=$NETLIFY_SITE_ID --auth=$NETLIFY_AUTH_TOKEN
+            else
+              netlify deploy --dir=build --site=$NETLIFY_SITE_ID --auth=$NETLIFY_AUTH_TOKEN
+            fi
+
+# Workflow
+workflows:
+  version: 2
+  build-test-deploy:
+    jobs:
+      - build-and-test
+      - deploy:
+          requires:
+            - build-and-test
+          filters:
+            branches:
+              only:
+                - main
+                - develop

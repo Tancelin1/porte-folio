@@ -1,26 +1,46 @@
 # À propos de moi
 
-Bonjour, je m'appelle **Tancelin Navez**.
+Bonjour, je m’appelle **Tancelin Navez**.
 
-Depuis tout petit l'informatique et les animaux font partir de ma vie.
-Cette passion de informatique et née suite a mon enfance, en CE1 j'ai étiat diagnostiquée dys, ce qui ma forcée a utilisée l'outil informatique, cela était ma premiere approche avec l'informatique, suite a sa, je me suis prit interer pour comprendre cette outil qui m'a permis de suivre une scolarité "normal", cette atachement a la compréhension m'a permis de complet mes probleme et atteindre le M2
+Depuis mon plus jeune âge, l’informatique occupe une place importante dans ma vie, au même titre que les animaux.  
+Mon intérêt pour le numérique est né très tôt, en grande partie à travers mon parcours scolaire.
+
+Diagnostiqué **multi-DYS dès le CE1**, j’ai rapidement été amené à utiliser l’outil informatique comme **moyen de compensation** afin de pouvoir suivre une scolarité dite « classique ».  
+Ce premier contact, initialement utilitaire, a peu à peu éveillé une véritable curiosité : comprendre comment fonctionnait cet outil qui me permettait de gagner en autonomie et en confiance.
+
+Avec le temps, cette curiosité s’est transformée en **intérêt profond pour le développement**.  
+Apprendre à concevoir, structurer et résoudre des problèmes m’a permis de développer des stratégies de compensation efficaces, mais aussi une méthode de travail rigoureuse.
+
+Dans ce contexte, j’ai obtenu une **Reconnaissance de la Qualité de Travailleur Handicapé (RQTH)**.  
+Cette reconnaissance atteste de ma capacité à travailler tout en bénéficiant, si nécessaire, d’adaptations adaptées à mon fonctionnement cognitif. Elle fait partie intégrante de mon parcours et reflète surtout ma capacité d’adaptation et de résilience.
+
+J’ai ensuite poursuivi mes études dans le domaine du développement web, jusqu’à atteindre un **niveau Master (M2)**, confirmant mon projet professionnel et mon engagement dans ce domaine.
+
+---
 
 ## Compétences
 
-### savoir-faire
+### Savoir-faire
 
 - Développement web (React, Next.js)
 - JavaScript / TypeScript
 - HTML / CSS / Bootstrap
 - Python
-- Ruby on rails
+- Ruby on Rails
 
 ### Savoir-être
 
-- Travail d'équipe
+- Travail d’équipe  
+- Persévérance  
+- Capacité d’adaptation  
+- Curiosité technique  
 
-## Mes intérêts
+---
 
-L'informatique fait partie intégrante de mon vécu, ce dernier m'a aidée lorsque j'était plus jeune a suivre les cours.
-Mon second interer primordiaux sont les animaux, ayant grandi dans une campagne, j'était entourer de chat et de chien.
-En plus du développement, j'ai aussi une passion pour la culture japonaise (manga/animée/histoire du japon ...) ainsi que les jeux vidéo qui m'on permis améliorer ma textérité malgré mes soucis
+## Centres d’intérêt
+
+L’informatique reste aujourd’hui un pilier central de mon quotidien, à la fois comme **outil professionnel** et comme **moyen d’expression et de compréhension**.
+
+Mon second centre d’intérêt majeur concerne les **animaux**. Ayant grandi à la campagne, j’ai toujours été entouré de chats et de chiens, ce qui m’a appris la patience, l’observation et le sens des responsabilités.
+
+Enfin, je m’intéresse également à la **culture japonaise** (mangas, animés, histoire du Japon) ainsi qu’aux **jeux vidéo**, qui ont contribué, entre autres, à améliorer ma concentration et ma coordination au fil du temps.

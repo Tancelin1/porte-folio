@@ -108,6 +108,9 @@ h3 {
 }
 
 .markdown-content {
+  p{
+    text-wrap : nowrap;
+  }
   line-height: 1.8;
   color: var(--text-color);
 }

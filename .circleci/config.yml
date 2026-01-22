@@ -4,7 +4,7 @@ version: 2.1
 jobs:
   build-and-test:
     docker:
-      - image: cimg/node:18.19
+      - image: cimg/node:20.11
     steps:
       - checkout
       
@@ -48,7 +48,7 @@ jobs:
 
   deploy:
     docker:
-      - image: cimg/node:18.19
+      - image: cimg/node:20.11
     steps:
       - checkout
       

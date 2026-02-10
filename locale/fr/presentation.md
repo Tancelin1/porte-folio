@@ -27,6 +27,7 @@ J’ai ensuite poursuivi mes études dans le domaine du développement web, jusq
 - HTML / CSS / Bootstrap
 - Python
 - Ruby on Rails
+- Markdown
 
 ### Savoir-être
 

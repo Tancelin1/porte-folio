@@ -18,23 +18,4 @@
     ],
     "link": "https://github.com/Tancelin1/dig-ynov/tree/develop"
   }
-  // {
-  //   "title": "Projet E-commerce",
-  //   "description": "Un projet e-commerce avec panier d'achat et système de paiement intégré",
-  //   "technologies": [
-  //     "Next.js",
-  //     "Stripe",
-  //     "Tailwind CSS"
-  //   ]
-  // },
-  // {
-  //   "title": "API REST",
-  //   "description": "Une API REST complète avec authentification et documentation",
-  //   "technologies": [
-  //     "Node.js",
-  //     "Express",
-  //     "JWT",
-  //     "Swagger"
-  //   ]
-  // }
 ]

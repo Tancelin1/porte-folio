@@ -44,4 +44,4 @@ L’informatique reste aujourd’hui un pilier central de mon quotidien, à la f
 
 Mon second centre d’intérêt majeur concerne les **animaux**. Ayant grandi à la campagne, j’ai toujours été entouré de chats et de chiens, ce qui m’a appris la patience, l’observation et le sens des responsabilités.
 
-Enfin, je m’intéresse également à la **culture japonaise** (mangas, animés, histoire du Japon) ainsi qu’aux **jeux vidéo**, qui ont contribué, entre autres, à améliorer ma concentration et ma coordination au fil du temps.
+Enfin, je m’intéresse également à la **culture japonaise** (mangas, animés, histoire du Japon) ainsi qu’aux **jeux vidéo**, qui ont contribué, entre autres, à améliorer ma concentration, ma communication et ma coordination au fil du temps.
